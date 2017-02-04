@@ -38,7 +38,7 @@ class ASDKCollectionNode: ASCellNode {
     
     override func layoutSpecThatFits(_ constrainedSize: ASSizeRange) -> ASLayoutSpec {
         
-        imageNode.style.preferredSize = CGSize.init(width: 120, height: 120)
+        imageNode.style.preferredSize = CGSize.init(width: 100, height: 100)
         
         let textCenterSpec = ASCenterLayoutSpec(centeringOptions:.XY, sizingOptions: .minimumX, child: titleNode)
         

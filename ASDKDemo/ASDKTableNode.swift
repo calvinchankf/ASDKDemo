@@ -20,7 +20,7 @@ class ASDKTableNode: ASCellNode {
         
         let flowLayout = UICollectionViewFlowLayout.init()
         flowLayout.scrollDirection = .horizontal
-        flowLayout.itemSize = CGSize(width: 120, height: 120)
+        flowLayout.itemSize = CGSize(width: 100, height: 100)
         flowLayout.sectionInset = UIEdgeInsets.init(top: 4, left: 4, bottom: 0, right: 4)
         flowLayout.minimumLineSpacing = 4
         flowLayout.minimumInteritemSpacing = 0 // actually i forgot what it is...lol
@@ -29,7 +29,7 @@ class ASDKTableNode: ASCellNode {
         collectionNode.dataSource = self
         collectionNode.delegate = self
         
-        collectionNode.style.preferredSize = CGSize.init(width: UIScreen.main.bounds.width, height: 124)
+        collectionNode.style.preferredSize = CGSize.init(width: UIScreen.main.bounds.width, height: 104)
         
         self.automaticallyManagesSubnodes = true
         

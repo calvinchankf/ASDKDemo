@@ -18,6 +18,7 @@ class ASDKViewController: ASViewController<ASDisplayNode> {
         super.init(node: tableNode)
         
         self.tableNode.view.separatorStyle = .none
+        self.tableNode.view.showsHorizontalScrollIndicator = false
         self.tableNode.dataSource = self
         self.tableNode.delegate = self
     }

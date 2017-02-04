@@ -50,6 +50,6 @@ extension UIKitViewController: UITableViewDataSource {
 
 extension UIKitViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 124;
+        return 104;
     }
 }
